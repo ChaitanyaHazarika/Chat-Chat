@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+.main{
+    margin: 12%;
+    background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+    padding: 10px;
+    
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+}
+#submitroomcodebtn{
+    margin-top: 20px;
+}
+#senddiv{
+    position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+.id{
+    margin-bottom: 10px;
+}
+#logoutbtn{
+    text-align: right;
+}
+#output{
+    text-align: left;
+    padding: 20px;
+}
