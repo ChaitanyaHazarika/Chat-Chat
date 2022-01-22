@@ -66,3 +66,12 @@ function send() {
     });
     document.getElementById("msg").value=""
 }
+window.addEventListener("keypress" , keydown)
+function keydown(e) {
+    keycode= e.keyCode;
+    
+    if (keycode== 13) {
+        send()
+    }
+    console.log(keycode);
+}
